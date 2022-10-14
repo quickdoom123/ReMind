@@ -1,0 +1,260 @@
+html, body {
+	height:  100%;
+}
+/*---------------------------------------------------------------------------*/
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background: rgba(40, 38, 39, .75); /*makes sure the background of the navbar has less
+  opacity, but not the elements inside it!*/
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 68px;
+}
+
+/* Links inside the navbar */
+.navbar a { /*use "a" after navbar to reference all of the a elements in navbar.*/
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 30px; /*spaces out the elements horizontally and vertically*/
+  text-decoration: none; /*gets rid of lines underneath elements*/
+
+}
+
+/* Change background on mouse-over */
+.navbar a:hover { /*use "a" after navbar to reference all of the a eleements in navbar.*/
+  background: #ddd;
+  color: black;
+}
+/*---------------------------------------------------------------------------*/
+
+
+.webPage1 {
+  /* This Will not allow the video to overflow the 
+  container */
+  overflow: hidden;
+  /* Centering the container's content vertically 
+  and horizontally */
+  display: flex; /*keeps ratio of video intact*/
+  align-items: center;
+  justify-content: center; /*centers the video contents */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0.87;
+}
+
+.webPage2 {
+/* This Will not allow the video to overflow the 
+  container */
+  overflow: hidden;
+  /* Centering the container's content vertically 
+  and horizontally */
+  display: flex; /*keeps ratio of video intact*/
+  align-items: center;
+  justify-content: center; /*center the video contents*/
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.87;
+}
+
+#Logo{
+position: relative;
+height: 40px;
+vertical-align: middle; /*makes the image scale properly in terms of width*/
+top: -10px;
+left: 25px;
+
+}
+/*------------------------------------------*/
+.caption { /*make sure only the paragraphs are affected*/
+	position: absolute;
+	color: white;
+	font-size: 60px;
+	font-weight: 900;
+	font-family: arial;
+	top: 50px;
+    left: 55px;
+    height: 100%;
+    width: 100%;
+}
+
+.sub-caption { /*make sure only the paragraphs are affected*/
+	position: absolute;
+	color: white;
+	font-size: 24px;
+	font-family: arial;
+	top: 175px;
+    left: 55px;
+    height: 100%;
+    width: 100%;
+}
+/*--------------------------------------*/
+.carasol1Title {
+	position: absolute;
+	color: white;
+	font-size: 24px;
+	font-family: arial;
+    height: 40%;
+    width: 94%;
+}
+
+.rightArrow1 {
+	position: absolute;
+	top: 430px;
+    left: 1850px;
+    height: 100%;
+    width: 100%;
+}
+
+.leftArrow1 {
+	position: absolute;
+	top: 430px;
+    left: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.carasol1 {
+	position: absolute;
+	height: 25%;
+	width: 94%;
+	top: auto;
+	left: auto;
+}
+/*----------------------------------------*/
+.carasol2Title {
+	position: absolute;
+	color: white;
+	font-size: 24px;
+	font-family: arial;
+    top: 67%;
+    width: 94%;
+}
+
+.carasol2 {
+	position: absolute;
+	top: 75%;
+	width: 94%;
+}
+
+.rightArrow2 {
+	position: absolute;
+	top: 85%;
+    left: 1850px;
+    height: 100%;
+    width: 100%;
+}
+
+.leftArrow2 {
+	position: absolute;
+	top: 85%;
+    left: 25px;
+    height: 100%;
+    width: 100%;
+}
+/*---------------------------------------------------------------------*/
+.carasol3Title {
+	position: absolute;
+	color: white;
+	font-size: 24px;
+	font-family: arial;
+    top: 5%;
+    width: 94%;
+}
+
+.carasol3 {
+	position: absolute;
+	top: 13%;
+	width: 94%;
+}
+
+.rightArrow3 {
+	position: absolute;
+	top: 23%;
+    left: 1850px;
+    height: 100%;
+    width: 100%;
+}
+
+.leftArrow3 {
+	position: absolute;
+	top: 23%;
+    left: 25px;
+    height: 100%;
+    width: 100%;
+}
+/*---------------------------------------------------------------------*/
+.carasol4Title {
+	position: absolute;
+	color: white;
+	font-size: 24px;
+	font-family: arial;
+    top: 43%;
+    width: 94%;
+}
+
+.carasol4 {
+	position: absolute;
+	top: 51%;
+	width: 94%;
+}
+
+.rightArrow4 {
+	position: absolute;
+	top: 61%;
+    left: 1850px;
+    height: 100%;
+    width: 100%;
+}
+
+.leftArrow4 {
+	position: absolute;
+	top: 61%;
+    left: 25px;
+    height: 100%;
+    width: 100%;
+}
+/*---------------------------------------------------------------------*/
+#BottomUI { 
+  width: 100%;
+  height: 50%;
+}
+
+#Logout{
+	float: right;
+}
+
+#Profile{
+	float: right;
+position: absolute;
+height: auto;
+vertical-align: middle; /*makes the image scale properly in terms of width*/
+top: 5%px;
+left: 88.525%;
+}
+
+#Audio{
+	float: right;
+	position: absolute;
+	left: auto;
+}
+
+#Notification{
+	float: right;
+	position: absolute;
+    height: auto;
+	left: 82%;
+	padding: 40px 40px;
+}
+
+#Search{
+	float: right;
+	position: absolute;
+    height: auto;
+	left: 79%;
+}
